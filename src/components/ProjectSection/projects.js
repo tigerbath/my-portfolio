@@ -6,6 +6,7 @@ import stockscapeCap from "./projectscreens/stockscapeCap.png";
 import textEditor from "./projectscreens/textEditor.png";
 import techBlog from "./projectscreens/techBlog.png";
 import codingQuiz from "./projectscreens/codingQuiz.png";
+import gists from "./projectscreens/gists.png";
 
 export default [
   {
@@ -60,9 +61,10 @@ export default [
     title: "Regex Tutorial",
     subtitle: "My write-up on Regular Expressions",
     description: "lorem10",
-    imageSrc: "https://avatars.githubusercontent.com/u/87938352?v=4",
+    imageSrc: gists,
     gitLink: "https://github.com/tigerbath",
-    deployedLink: "https://www.linkedin.com/in/matthew-palmer-a13aab156/",
+    deployedLink:
+      "https://gist.github.com/tigerbath/a6d119f494ca9e0cbd4148fd674fa15c",
   },
   {
     title: "Text Editor",
