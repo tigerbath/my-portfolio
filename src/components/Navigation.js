@@ -51,7 +51,7 @@ export const Navigation = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 599px)" });
 
   return (
-    <Box sx={{ maxWidth: "600px", margin: "auto" }}>
+    <Box sx={{ maxWidth: "450px", margin: "auto" }}>
       <StyledTabs
         component="nav"
         value={value}
@@ -67,7 +67,6 @@ export const Navigation = () => {
         <StyledTab value="about" label="About" />
         <StyledTab value="contact" label="Contact" />
         <StyledTab value="work" label="Work" />
-        <StyledTab value="references" label="References" />
         <StyledTab
           component="a"
           target="_blank"
