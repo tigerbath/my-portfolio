@@ -8,12 +8,12 @@ import PublicIcon from "@mui/icons-material/Public";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 const ProjectCard = (props) => {
-  const { title, subtitle, imageUrl, gitLink, linkedLink } = props;
+  const { title, subtitle, imageSrc, gitLink, deployedLink } = props;
   return (
     <Card>
       <CardMedia
         style={{ height: "300px", maxWidth: "auto" }}
-        image={imageUrl}
+        image={imageSrc}
       />
       <CardContent style={{ padding: "30px" }}>
         <Typography variant="body1" component="h1">
@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
         </Typography>
       </CardContent>
       <CardActions style={{ justifyContent: "center", padding: "20px" }}>
-        <Button size="small" href={linkedLink}>
+        <Button size="small" href={deployedLink}>
           <PublicIcon sx={{ color: "#E79118", fontSize: "2.5rem" }} />
         </Button>
         <Button size="small" href={gitLink}>
