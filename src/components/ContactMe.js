@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { emailValidate } from "../Utils/Helpers";
+import { FormControl } from "@mui/material";
 
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
@@ -53,31 +54,36 @@ export const ContactMe = () => {
     >
       <section className="container">
         <form class="justify-content-center" id="contact-form">
-          <div class="mt-5">
+          <div>
             <label htmlFor="name">Name:</label>
             <input
               class="form-control"
               type="text"
               name="name"
+              style={{ padding: "15px", margin: "20px" }}
               defaultValue={name}
               onBlur={handleChange}
             />
           </div>
-          <div class="mt-5">
+          <div>
             <label htmlFor="email">Email:</label>
             <input
               class="form-control"
               type="email"
               name="email"
+              style={{ padding: "15px", margin: "25px" }}
               defaultValue={email}
               onBlur={handleChange}
             />
           </div>
-          <div class="mt-5">
-            <label htmlFor="message">How can I help?:</label>
+          <div>
+            <label htmlFor="message" style={{ paddingRight: "10px" }}>
+              How can I help?:
+            </label>
             <textarea
               class="form-control"
               name="message"
+              style={{ paddingRight: "450px", margin: "15px" }}
               defaultValue={message}
               onBlur={handleChange}
               rows="7"
