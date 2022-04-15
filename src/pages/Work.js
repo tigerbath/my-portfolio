@@ -1,4 +1,4 @@
-import { PageTitle } from "../components/title";
+import { Title } from "../components/title";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Content from "../components/ProjectSection/content";
@@ -8,7 +8,7 @@ export const Work = () => {
   return (
     <>
       <Box sx={{ maxWidth: "750px", margin: "auto", textAlign: "center" }}>
-        <PageTitle title="Projects" sx={{ alignText: "center" }}></PageTitle>
+        <Title title="Projects" sx={{ alignText: "center" }}></Title>
       </Box>
       <Container sx={{ py: 10 }} maxWidth="lg" align="center">
         <Grid container direction="column">

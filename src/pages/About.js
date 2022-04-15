@@ -2,7 +2,7 @@ import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import { useMediaQuery } from "react-responsive";
 
-import { PageTitle } from "../components/title";
+import { Title } from "../components/title";
 import { Bio } from "../components/Bio";
 
 import selfie from "../images/selfie.jpg";
@@ -50,7 +50,7 @@ export const About = () => {
         </Avatar>
       )}
 
-      <PageTitle title="About me" />
+      <Title title="About me" />
       <Bio />
     </Box>
   );
