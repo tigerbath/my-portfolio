@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.7dcf18e5.css",
+    "main.js": "/my-portfolio/static/js/main.d99f812f.js",
+    "static/media/stockscapeCap.png": "/my-portfolio/static/media/stockscapeCap.0e5f526650509d4d649e.png",
+    "static/media/unifiedHome.png": "/my-portfolio/static/media/unifiedHome.d2fd53b9a0bf11493808.png",
+    "static/media/boredasbook.png": "/my-portfolio/static/media/boredasbook.f0afb0efdebe23bb9a9e.png",
+    "static/media/selfie.jpg": "/my-portfolio/static/media/selfie.9aae707f551b14bf7372.jpg",
+    "static/media/weatherdashboard.png": "/my-portfolio/static/media/weatherdashboard.252195f7a5f82433b6fd.png",
+    "static/media/techBlog.png": "/my-portfolio/static/media/techBlog.61bebee35bfc4ea74ec5.png",
+    "static/media/codingQuiz.png": "/my-portfolio/static/media/codingQuiz.dd5480b652f8bff41a90.png",
+    "static/media/shipswheelandtextblack.png": "/my-portfolio/static/media/shipswheelandtextblack.29e3d3cb4342f955fddd.png",
+    "static/media/textEditor.png": "/my-portfolio/static/media/textEditor.17cdb1573ba5696e0900.png",
+    "static/media/passwordGenerator.png": "/my-portfolio/static/media/passwordGenerator.528a50964b0d95d3019d.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.7dcf18e5.css.map": "/my-portfolio/static/css/main.7dcf18e5.css.map",
+    "main.d99f812f.js.map": "/my-portfolio/static/js/main.d99f812f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dcf18e5.css",
+    "static/js/main.d99f812f.js"
+  ]
+}
