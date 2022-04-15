@@ -9,11 +9,12 @@ export const ContactMe = () => {
     name: "",
     email: "",
     message: "",
+    mobile: "",
   });
 
   const [errorMessage, setErrorMessage] = useState("");
 
-  const { name, email, message } = formState;
+  const { name, email, message, mobile } = formState;
 
   function handleChange(e) {
     if (e.target.name === "email") {
@@ -72,6 +73,17 @@ export const ContactMe = () => {
               name="email"
               style={{ padding: "15px", margin: "25px" }}
               defaultValue={email}
+              onBlur={handleChange}
+            />
+          </div>
+          <div>
+            <label htmlFor="email">Mobile:</label>
+            <input
+              class="form-control"
+              type="mobile"
+              name="mobile"
+              style={{ padding: "15px", margin: "15px" }}
+              defaultValue={mobile}
               onBlur={handleChange}
             />
           </div>
