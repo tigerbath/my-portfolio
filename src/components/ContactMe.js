@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { emailValidate } from "../Utils/Helpers";
-import { FormControl } from "@mui/material";
 
 import Box from "@mui/material/Box";
 
