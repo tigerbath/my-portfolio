@@ -3,7 +3,6 @@ import { emailValidate } from "../Utils/Helpers";
 import { FormControl } from "@mui/material";
 
 import Box from "@mui/material/Box";
-import { Typography } from "@mui/material";
 
 export const ContactMe = () => {
   const [formState, setFormState] = useState({
@@ -21,13 +20,13 @@ export const ContactMe = () => {
       const isValid = emailValidate(e.target.value);
 
       if (!isValid) {
-        setErrorMessage("please enter a valid email");
+        setErrorMessage("Please enter a valid email");
       } else {
         setErrorMessage("");
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required. Please add one`);
+        setErrorMessage(`A ${e.target.name} is required. Please add one`);
       } else {
         setErrorMessage("");
       }
@@ -102,7 +101,7 @@ export const ContactMe = () => {
               type="submit"
               onSubmit={handleSubmit}
             >
-              Submit
+              Reach out
             </button>
           </div>
         </form>
